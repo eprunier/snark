@@ -1,0 +1,24 @@
+{
+  "name": "feed-client",
+  "version": "0.1.0",
+  "description": "Feeds client",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rss",
+    "atom",
+    "feed"
+  ],
+  "author": "Eric Prunier",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "colors": "^1.1.2",
+    "feedparser": "^1.1.3",
+    "minimist": "^1.1.3",
+    "request": "^2.60.0",
+    "request-promise": "^0.4.3"
+  }
+}
